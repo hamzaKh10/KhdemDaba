@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode
+.idea
+
+# Big files (GitHub limit is 100MB unless using Git LFS)
+khdemdaba.mp4

@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KhdemDaba</title>
+    <link rel="icon" href="./assets/image.png" type="image/png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="langDock" class="langDock" aria-label="Language"></div>
+
+    <header class="nav">
+      <div class="navContent">
+        <a class="brandLink" href="#/" aria-label="KhdemDaba home">
+          <img class="logo" src="./assets/logo.svg" alt="KhdemDaba logo" />
+          <img class="wordmark" src="./assets/wordmark.svg" alt="KhdemDaba" />
+        </a>
+        <nav class="navLinks" id="navLinks"></nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <div id="flash" class="flash" style="display:none"></div>
+      <main id="app" class="app"></main>
+    </div>
+
+    <div id="floatCta" class="floatCta" style="display:none"></div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

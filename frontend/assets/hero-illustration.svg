@@ -1,0 +1,45 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="120" y1="60" x2="760" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#16A34A" stop-opacity="0.16"/>
+    </linearGradient>
+    <filter id="blur" x="-40" y="-40" width="980" height="780" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <!-- Soft blobs -->
+  <g filter="url(#blur)" opacity="0.9">
+    <path d="M190 190C240 80 380 50 470 120C560 190 690 140 740 240C790 340 720 470 610 500C500 530 450 650 330 630C210 610 90 520 110 400C130 280 140 300 190 190Z" fill="url(#g1)"/>
+    <circle cx="710" cy="130" r="70" fill="#2563EB" fill-opacity="0.10"/>
+    <circle cx="220" cy="560" r="90" fill="#16A34A" fill-opacity="0.10"/>
+  </g>
+
+  <!-- Cards -->
+  <rect x="170" y="160" width="560" height="110" rx="18" fill="white" fill-opacity="0.92" stroke="#0F172A" stroke-opacity="0.12"/>
+  <rect x="170" y="300" width="560" height="150" rx="18" fill="white" fill-opacity="0.92" stroke="#0F172A" stroke-opacity="0.12"/>
+  <rect x="170" y="480" width="560" height="120" rx="18" fill="white" fill-opacity="0.92" stroke="#0F172A" stroke-opacity="0.12"/>
+
+  <!-- Header line -->
+  <rect x="200" y="195" width="210" height="14" rx="7" fill="#0F172A" fill-opacity="0.14"/>
+  <rect x="200" y="220" width="320" height="12" rx="6" fill="#0F172A" fill-opacity="0.10"/>
+
+  <!-- Skills chips -->
+  <rect x="200" y="340" width="90" height="28" rx="14" fill="#2563EB" fill-opacity="0.12" stroke="#2563EB" stroke-opacity="0.22"/>
+  <rect x="300" y="340" width="90" height="28" rx="14" fill="#0F172A" fill-opacity="0.04" stroke="#0F172A" stroke-opacity="0.10"/>
+  <rect x="400" y="340" width="110" height="28" rx="14" fill="#0F172A" fill-opacity="0.04" stroke="#0F172A" stroke-opacity="0.10"/>
+  <rect x="520" y="340" width="120" height="28" rx="14" fill="#16A34A" fill-opacity="0.12" stroke="#16A34A" stroke-opacity="0.22"/>
+
+  <rect x="200" y="385" width="390" height="12" rx="6" fill="#0F172A" fill-opacity="0.10"/>
+  <rect x="200" y="410" width="320" height="12" rx="6" fill="#0F172A" fill-opacity="0.08"/>
+
+  <!-- Footer -->
+  <rect x="200" y="520" width="180" height="14" rx="7" fill="#0F172A" fill-opacity="0.12"/>
+  <rect x="200" y="548" width="260" height="12" rx="6" fill="#0F172A" fill-opacity="0.08"/>
+
+  <!-- Small icon circle -->
+  <circle cx="680" cy="215" r="22" fill="#2563EB" fill-opacity="0.18"/>
+  <path d="M671 216.5L679 224.5L691 210.5" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
